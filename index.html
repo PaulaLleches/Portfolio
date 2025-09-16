@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Paula Lleches</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #2a5d34;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .about {
+      margin-bottom: 2rem;
+    }
+    .projects {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    select, button {
+      padding: 0.5rem 1rem;
+      margin: 0.5rem;
+      font-size: 1rem;
+    }
+    button {
+      background: #2a5d34;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #3c7c48;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Paula Lleches</h1>
+    <h2>Ambientóloga</h2>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>Sobre mí</h2>
+      <p>
+        Especializada en conservación de la biodiversidad, con experiencia como técnica ambiental municipal en gestión local y de espacios forestales. 
+        Amplia trayectoria en redacción de informes ambientales, gestión de subvenciones, trabajos de campo en flora y fauna, así como educación ambiental.
+      </p>
+    </section>
+
+    <section class="projects">
+      <h2>Proyectos</h2>
+      <label for="project">Selecciona un proyecto:</label>
+      <select id="project">
+        <option value="">-- Selecciona --</option>
+        <option value="oliva.html">Dunes en Oliva</option>
+        <option value="bocairent.html">Ajuntament de Bocairent</option>
+      </select>
+      <br>
+      <button onclick="goToProject()">IR</button>
+    </section>
+  </main>
+
+  <script>
+    function goToProject() {
+      const project = document.getElementById("project").value;
+      if (project) {
+        window.location.href = project;
+      } else {
+        alert("Por favor, selecciona un proyecto.");
+      }
+    }
+  </script>
+</body>
+</html>
