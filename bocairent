@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ÁMBITO FORESTAL</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Merriweather sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: white;
+      color: #315427;
+    }
+    header {
+      background: #eaf9e6;
+      color: #315427;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .video, .images {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .images img {
+      max-width: 250px;
+      margin: 0.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    a.back {
+      display: inline-block;
+      margin-top: 2rem;
+      text-decoration: none;
+      background: #2a5d34;
+      color: white;
+      padding: 0.7rem 1.2rem;
+      border-radius: 5px;
+    }
+    a.back:hover {
+      background: #3c7c48;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Memoria Valorada de Mejora del Rio Clariano de Bocairent</h1>
+    <h2>Ayuntamiento de Bocairent (2025)</h2>
+  </header>
 
+  <main>
+    <section>
+      <h2>Introducción</h2>
+      <p style="text-align: justify;">
+        Proyecto orientado a la recuperación ecológica y paisajística del tramo del río Clariano 
+        dentro del casco urbano de Bocairent. Las actuaciones contemplan la eliminación de especies 
+        invasoras (caña y ailanto) con el reto de mantenimiento que eso supone, también se propone 
+        el desbroce de una franja alrededor del cauce para la prevención de incendios forestales, como también
+        la plantación de especies autóctonas, con el objetivo de renaturalizar el entorno fluvial 
+        y ofrecer un espacio verde de ocio y disfrute para la ciudadanía.
+      </p>
+    </section>
+
+    <section>
+      <h2>Descripción del trabajo</h2>
+      <ul>
+        <li>Muestreo de flora del ecosistema dunar.</li>
+        <li>Identificación de hábitats, especies y comunidades vegetales.</li>
+        <li>Valoración del estado de conservación del área.</li>
+        <li>Colaboración en proyectos de afección a la Red Natura 2000.</li>
+      </ul>
+    </section>
+
+    <section class="video">
+      <h2>Vídeo explicativo</h2>
+      <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/iWrdEMUy4JY"
+          title="Video-resumen.mp4" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+      </iframe>
+    </section>
+
+    <section class="images">
+      <h2>Galería de imágenes</h2>
+      <div class="gallery">
+      <img src="images/FLORA.jpg" alt="FLORA">
+      <img src="images/MATORRAL.jpg" alt="MATORRAL">
+      <img src="images/FAUNA.jpg" alt="FAUNA">
+      </div>
+    </section>
+
+    <div style="text-align:center;">
+      <a href="index.html" class="back">⬅ Volver al inicio</a>
+    </div>
+  </main>
+</body>
+</html>
